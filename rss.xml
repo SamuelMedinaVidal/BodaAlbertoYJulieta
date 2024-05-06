@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Boda Alberto y Julieta</title>
+        <link>https://zororinblaze.github.io/BodaAlbertoYJulieta/</link>
+        <description>Últimas actualizaciones sobre la boda de Alberto y Julieta</description>
+        <language>es-es</language>
+        <lastBuildDate>Thu, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <item>
+            <title>Información sobre la boda</title>
+            <link>https://zororinblaze.github.io/BodaAlbertoYJulieta/</link>
+            <description>Encuentra toda la información relevante sobre la boda de Alberto y Julieta.</description>
+            <pubDate>Thu, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Horario de la boda</title>
+            <link>https://zororinblaze.github.io/BodaAlbertoYJulieta/horario.html</link>
+            <description>Consulta el horario detallado de la boda de Alberto y Julieta.</description>
+            <pubDate>Thu, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Formulario de RSVP</title>
+            <link>https://zororinblaze.github.io/BodaAlbertoYJulieta/formulario.html</link>
+            <description>Confirma tu asistencia a la boda de Alberto y Julieta completando el formulario.</description>
+            <pubDate>Thu, 06 May 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
