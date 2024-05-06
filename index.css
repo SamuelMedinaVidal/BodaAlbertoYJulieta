@@ -1,0 +1,107 @@
+/* Estilos generales */
+body { /*Definimos el color, grosor, fuente de letra y el fondo de la página*/
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    font-weight: bold;
+    background-color: rgb(72, 255, 148);
+}
+
+img { /*Hace que la imágen ocupe el 100% del ancho de la página y elimina el margen predeterminado de las imágenes*/
+    width: 100%;
+    margin: 0; 
+}
+
+video { /*Centra el vídeo y le damos unos bordes redondeados*/
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 { /*Centra el texto y se le da un mayor tamaño como título principal que es*/
+    text-align: center;
+    font-size: 50px; 
+}
+
+h1, h3 { /*Centra el texto de los títulos, se les pone un color de fondo con un tamaño y un borde redondeado*/
+    text-align: center;
+    background-color: rgb(26, 148, 77);
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content; 
+    border-radius: 10px;
+}
+
+
+body:not(nav) a {/*Cambia el color de texto, le quita el subrayado y le añade una transición*/
+    color: rgb(255, 173, 58);
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+body:not(nav) a:hover {/*Cambia el color del texto al pasar el ratón por encima*/
+    color: rgb(204, 140, 0);
+}
+
+/* Barra de navegación */
+nav {  /*Definimos el color de fondo, la posición y tamaño de la barra de navegación, además del espaciado entre los elementos de esta*/
+    background-color: rgb(26, 148, 77); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; 
+}
+
+nav ul { /*Elimina todos los diseños predeterminados*/
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li { /*Los elementos de la lista se ordenan en horizontal con un margen a la derecha entre ellos*/
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li:last-child {/*Eliminamos el margen de la derecha del último elemento de la lista por si acaso*/
+    margin-right: 0; 
+}
+
+nav ul li a{ /*Se define el color de texto que tendrán los enlaces de la barra de navegación y se le elimina el subrayado*/
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {/*Al poner el ratón encima del texto, este cambia de color*/
+    color: rgb(255, 173, 58);
+}
+
+/* Botón de Apúntate */
+nav .boton { /* Posicionamos el botón a la derecha con cierto margen*/
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+nav .boton a { /*Se define el color del texto y del fondo, se le redondea el borde del fondo y se le implementa una transición para cuando pongamos el ratón encima cambie este de color*/
+    color: white;
+    background-color: rgb(255, 173, 58);
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav .boton a:hover { /*Cambia el color de fondo al poner el ratón por encima*/
+    background-color: rgb(204, 140, 0);
+}

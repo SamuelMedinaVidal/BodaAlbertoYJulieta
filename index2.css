@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 192, 203);
+}
+
+img { 
+    width: 100%;
+    margin: 0; 
+}
+
+video { /*Centra el vídeo y le damos unos bordes redondeados*/
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    margin-left: 180px;
+}
+
+header h1, h1, h3 {
+    text-align: center;
+    background-color: rgb(189, 118, 130);
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+body:not(nav) a {
+    color: rgb(255, 173, 58);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+body:not(nav) a:hover {
+    color: rgb(204, 140, 0);
+}
+
+.contenido {
+    margin-left: 220px;
+    padding-top: 100px;
+}
+
+.contenido p {
+    margin-left: 20px;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: rgb(189, 118, 130);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 90px;
+}
+
+nav ul li:last-child {
+    margin-bottom: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 173, 58);
+}
+
+nav .boton {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 50%;
+}
+
+nav .boton a {
+    color: white;
+    background-color: rgb(255, 173, 58);
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav .boton a:hover {
+    background-color: rgb(204, 140, 0);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.autor {
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

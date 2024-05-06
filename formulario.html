@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>formulario</title>
+        <link rel="stylesheet" href="./formulario2.css">
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIO</h1>
+        </header>
+        <br>
+        <br>
+        <label>NOMBRE: 
+            <input type="text" name="apellidos" size="30" placeholder="Escriba aquí su nombre" required>
+        </label>    
+        <br>
+        <br>
+        <label>APELLIDOS:
+            <input type="text" name="apellidos" size="30" placeholder="Escriba aquí sus apellidos" required>
+        </label>
+        <br>
+        <br>
+        <label>TELÉFONO:
+            <input type="number" name="telefono" size="30" placeholder="Escriba aquí su número de teléfono" required>
+        </label>
+        <br>
+        <br>
+        <label>ACOMPAÑANTES:
+            <input type="number" name="telefono" size="30" placeholder="Escriba aquí el número de acompañantes" required>
+        </label>
+        <br>
+        <br>      
+        <fieldset>
+            <legend><strong>Tienes alergia o eres intolerante a:</strong></legend>
+            <label>
+                <span>No tengo alergias o intolerancias</span>
+                <input type="checkbox" name="Nada">
+            </label>
+            <label>
+                <span>Tengo intolerancia a la lactosa</span>
+                <input type="checkbox" name="lactosa">
+            </label>
+            <label>
+                <span>Tengo intolerancia al gluten</span>
+                <input type="checkbox" name="gluten">
+            </label>
+            <label>
+                <span>Tengo intolerancia a la fructosa</span>
+                <input type="checkbox" name="fructosa">
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <label><strong>Quieres escribirle algo a la pareja? Házlo aquí:</strong></label><br>
+        <textarea name="carta" id="carta" rows="4" cols="50">Escribe aquí tus comentarios</textarea>
+        <section>
+            <input type="submit" name="Enviar">
+        </section>
+        <footer>
+            <p>Ir a la página <a href="./index.html">principal</a></p>
+        </footer>
+    </body>
+</html>

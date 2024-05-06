@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(72, 255, 148);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 2px solid rgb(26, 148, 77);
+}
+
+caption {
+    text-align: center;
+    font: bold 50px Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(26, 148, 77);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+thead th, tbody th, tbody td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+    border-top: 2px solid rgb(26, 148, 77);
+    border-bottom: 2px solid rgb(26, 148, 77);
+    border-left: 2px solid rgb(26, 148, 77);
+    border-right: 2px solid rgb(26, 148, 77);
+}
+
+thead th {
+    background-color: rgb(26, 148, 77);
+    color: white;
+    padding: 10px;
+}
+
+tbody th:first-child, tbody td:first-child {
+    background-color: rgb(255, 173, 100);
+}
+
+/*Estilo del enlace que te devuelve a la página principal*/
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+p a {
+    color: rgb(255, 173, 58);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(204, 140, 0);
+}
